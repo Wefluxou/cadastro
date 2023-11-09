@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Autour one', sans-serif;
+}
+
+body *{
+    box-sizing: border-box;
+}
+.main-register{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, #3A1F68 0%, #68e0cf 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-register{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-register > h1 {
+    font-size: 2vw;
+    color: #3A1F68;
+}
+
+.left-register-img{
+    width: 35vw;
+}
+
+.right-register{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.card-register{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding: 30px 35px;
+    background-color: #31C0D6;
+    border-radius: 20px;
+    box-shadow: 0px  10px 40px #00000056;
+    margin: 10px;
+}
+
+.card-register > h1{
+    color:#3A1F68;
+}
+
+.textfield{
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.textfield > input{
+    width: 100%;
+    margin-left:10px;
+    border: 0;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #1D717E;
+    color: #f0ffffde;
+    box-shadow: 0px  10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label  {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+.textfield ::placeholder{
+    color: #0F3C43;
+}
+
+.btn-register{
+    border: none;
+    width: 50%;
+    padding: 10px 9px;
+    margin: 10px;
+    border-radius: 20px;
+    outline: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    box-shadow: 0px  10px 40px -12px #00000056;
+    color: #5B31A3;
+}
+
+
+@media only screen and ( max-width:950px){
+    .card-register{
+        width: 80%;
+    }
+}
+
+@media only screen and ( max-width:600px){
+    .main-register{
+        flex-direction: column;
+    }
+    .left-register >h1{
+        display: none;
+    }
+    .left-register{
+        width: 100%;
+        height: auto;
+    }
+    .right-register{
+        width: 100%;
+        height: auto;
+    }
+    .left-register-img{
+        width: 90%;
+    }
+}
