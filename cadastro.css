@@ -129,6 +129,15 @@ body *{
     .btn-register{
         font-size: 10px;
     }
+    .btn-register:hover{
+        color: white;
+        width: 60%;
+        height: 45PX;
+        transition: 0.4s;
+        background-color: #3A1F68;
+        box-shadow: 0px 15px 30px #3A1F68;
+    }
+    
 }
 
 @media only screen and ( max-width:600px){
