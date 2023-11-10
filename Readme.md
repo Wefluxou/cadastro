@@ -1,7 +1,7 @@
 
 # Olá, Bem vindo ao meu projeto de Pagina de Cadastro.
 
-![image](https://photos.app.goo.gl/6PykyntFZLAQUeVf7)
+![image](https://lh3.googleusercontent.com/pw/ADCreHeFKhpEBZdUg5UN5seuSuiChj65en_H-R9FcS55BdPBWVU3aKXtIRgIuwGs6L1T981tMirFZvOYmRpF2XthPiYobNcVknJnRZ5hM9NXzq_yu0PdjOvP_plVP6fA4GCvUCjdQmEoZvNs41Ik0_aQgQLv=w1239-h608-s-no?authuser=1)
 
 ## Ferramentas utilizadas:
 
