@@ -8,6 +8,7 @@
 body *{
     box-sizing: border-box;
 }
+
 .main-register{
     width: 100vw;
     height: 100vh;
@@ -16,6 +17,7 @@ body *{
     justify-content: center;
     align-items: center;
 }
+    
 
 .left-register{
     width: 50vw;
@@ -105,10 +107,27 @@ body *{
     color: #5B31A3;
 }
 
+.redes{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+.btn-register:hover{
+    color: white;
+    width: 60%;
+    height: 45PX;
+    transition: 0.4s;
+    background-color: #3A1F68;
+    box-shadow: 0px 15px 30px #3A1F68;
+}
 
 @media only screen and ( max-width:950px){
     .card-register{
         width: 80%;
+    }
+    .btn-register{
+        font-size: 10px;
     }
 }
 
